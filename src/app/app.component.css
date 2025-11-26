@@ -25,7 +25,24 @@
 .progress-bar {
     height: 12px;
     background: #007bff;
-    /* Blue color */
     border-radius: 10px;
     transition: width 1s ease-in-out;
+}
+
+.left-section {
+    width: 35%;
+    background-color: #2E3A59;
+    color: white;
+    padding: 30px;
+}
+
+.right-section {
+    width: 65%;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.left-section h2,
+.left-section p {
+    color: #ffffff;
 }

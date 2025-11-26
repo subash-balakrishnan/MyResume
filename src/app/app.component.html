@@ -1,27 +1,34 @@
 <main>
-  <div class="container">
+  <div class="container text-center">
     <header>
       <h1>Subash B</h1>
-      <!-- <a href="assets/My_Resume.pdf" download>Download Resume</a> -->
-      <a href="My_Resume.pdf" download>Download Resume</a>
-      <p>Angular Developer</p>
-      <button onclick="window.open('assets/resume.pdf', '_blank')">View Resume</button>
+      <h2>The Angular Developer</h2>
+      <h3>Angular Developer</h3>
+      <div class="d-flex justify-content-between mt-3">
+        <!-- Left side -->
+        <button onclick="window.location.href='My_Resume.pdf'" class="btn btn-success">
+          Download Resume
+        </button>
+        <!-- Right side -->
+        <button onclick="window.open('assets/My_Resume.pdf', '_blank')" class="btn btn-primary">
+          View Resume
+        </button>
+      </div>
 
-      <!-- <p>subashsubash3007&#64;gmail.com</p> -->
     </header>
     <div class="container mt-4">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 left-section">
           <section id="experience">
             <h2>Experience</h2>
             <article>
-              <h3>Software Engineer — Changepond Technologies</h3>
+              <h4>Software Engineer — Changepond Technologies</h4>
               <p>Dec 2022 — June 2025</p>
               <ul>
                 <li>
-                  <h5>Developed dynamic and interactive UI components using Angular, CKEditor, and SurveyCreator for
+                  <h6>Developed dynamic and interactive UI components using Angular, CKEditor, and SurveyCreator for
                     form-based
-                    enterprise applications</h5>
+                    enterprise applications</h6>
                   Built modular, reusable components that allowed users to create, edit, and submit complex forms with
                   rich
                   text inputs, embedded widgets, and customizable question structures. Ensured seamless integration of
@@ -30,20 +37,20 @@
                 </li>
 
                 <li>
-                  <h5>Implemented comprehensive unit testing with Jasmine and Karma to ensure code quality,
+                  <h6>Implemented comprehensive unit testing with Jasmine and Karma to ensure code quality,
                     functionality,
                     and
-                    maintainability.</h5>
+                    maintainability.</h6>
                   Wrote test cases covering components, services, and utility functions, increasing test coverage and
                   reducing
                   regression issues. Ensured continuous quality by validating business logic, DOM interactions, and API
                   integrations through automated tests.
                 </li>
                 <li>
-                  <h5>Contributed to continuous code quality improvement by performing analysis, refactoring, and
+                  <h6>Contributed to continuous code quality improvement by performing analysis, refactoring, and
                     adhering
                     to
-                    industry best practices.</h5>
+                    industry best practices.</h6>
                   Regularly participated in code reviews, optimized component logic, enforced clean coding standards,
                   and
                   improved maintainability through modular design patterns. Used tools like SonarQube/GitLab CI (if
@@ -57,7 +64,7 @@
               <p>Aug 2020 — July 2022</p>
               <ul>
                 <li>
-                  <h5>Database Administration and Maintenance:</h5>
+                  <h6>Database Administration and Maintenance:</h6>
                   Managed the creation, optimization, and maintenance of database tables, ensuring data integrity,
                   performance,
                   and efficient storage. Performed routine database monitoring, indexing, backup, and recovery tasks to
@@ -65,7 +72,7 @@
                   smooth application operations.
                 </li>
                 <li>
-                  <h5>Backend Programming & Data Manipulation:</h5>
+                  <h6>Backend Programming & Data Manipulation:</h6>
                   Developed and maintained backend modules for data processing, business logic implementation, and
                   database
                   interaction. Performed CRUD operations, wrote optimized queries, automated tasks, and ensured secure
@@ -73,7 +80,7 @@
                   efficient data flow between the application layers.
                 </li>
                 <li>
-                  <h5>Front-End Development & UI Enhancement:</h5>
+                  <h6>Front-End Development & UI Enhancement:</h6>
                   Designed and implemented user-friendly front-end interfaces with clean layouts and responsive
                   components.
                   Improved the overall appearance, usability, and accessibility of the application by applying modern
@@ -85,9 +92,23 @@
             </article>
           </section>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 right-section">
           <section id="skills">
             <h2>Skills</h2>
+
+            <div class="skill">
+              <p>Angular <span>80%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <p>TypeScript <span>78%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+              </div>
+            </div>
 
             <div class="skill">
               <p>HTML <span>70%</span></p>
@@ -111,14 +132,38 @@
             </div>
 
             <div class="skill">
-              <p>Angular <span>80%</span></p>
+              <p>Sonarqube Testing <span>90%</span></p>
               <div class="progress">
-                <div class="progress-bar" style="width: 80%;"></div>
+                <div class="progress-bar" style="width: 78%;"></div>
               </div>
             </div>
 
             <div class="skill">
-              <p>TypeScript <span>78%</span></p>
+              <p>Jasmine & Karma Testing <span>90%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Rxjs <span>70%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Ngrx <span>60%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>SOLID Principles <span>60%</span></p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Micro Front-End Service <span>60%</span></p>
               <div class="progress">
                 <div class="progress-bar" style="width: 78%;"></div>
               </div>
@@ -130,8 +175,9 @@
     </div>
     <footer>
       <!-- <a href="assets/My_Resume.pdf" download>Download Resume</a> -->
+      <!-- <p>subashsubash3007&#64;gmail.com</p> -->
       <a href="My_Resume.pdf" download>Download Resume</a>
-      <button onclick="window.open('assets/resume.pdf', '_blank')">View Resume</button>
+      <button onclick="window.open('assets/My_Resume.pdf', '_blank')">View Resume</button>
 
     </footer>
   </div>
