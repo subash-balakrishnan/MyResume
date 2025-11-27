@@ -54,3 +54,10 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
+.thick-line {
+    border: none;
+    border-top: 4px solid #000;
+    /* thickness + color */
+    margin: 10px 0;
+}
