@@ -30,14 +30,14 @@
 }
 
 .left-section {
-    width: 65%;
+    width: 35%;
     background-color: #2E3A59;
     color: white;
     padding: 30px;
 }
 
 .right-section {
-    width: 35%;
+    width: 65%;
     background-color: #ffffff;
     padding: 30px;
 }
