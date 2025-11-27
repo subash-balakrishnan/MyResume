@@ -29,6 +29,10 @@
     transition: width 1s ease-in-out;
 }
 
+.resumeHeader {
+    background-color: #616D8C;
+}
+
 .left-section {
     width: 35%;
     background-color: #2E3A59;
