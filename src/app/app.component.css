@@ -1,6 +1,6 @@
-#skills {
+/* #skills {
     margin-top: 40px;
-}
+} */
 
 .skill {
     margin-bottom: 20px;
@@ -30,18 +30,16 @@
 }
 
 .resumeHeader {
-    background-color: #616D8C;
+    background-color: #3F4B6A;
 }
 
 .left-section {
-    width: 35%;
     background-color: #2E3A59;
     color: white;
     padding: 30px;
 }
 
 .right-section {
-    width: 65%;
     background-color: #ffffff;
     padding: 30px;
 }
