@@ -34,6 +34,15 @@
     color: white;
 }
 
+.resumeContainer {
+  max-width: 800px; /* A4 size */
+  margin: 0 auto;   /* center */
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* optional, looks like a real paper */
+  padding: 20px;
+}
+
+
 .left-section {
     background-color: #2E3A59;
     color: white;
