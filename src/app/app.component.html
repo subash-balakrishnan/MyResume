@@ -1,19 +1,33 @@
 <main>
   <div class="container mt-2 mb-3">
-    <header class="resumeHeader text-center pt-2">
-      <h1>SUBASH <B></B></h1>
-      <h2>ANGULAR DEVELOPER</h2>
-      <div class="d-flex justify-content-end p-4">
+    <header class="resumeHeader pt-3 pb-3">
+      <div class="container">
+        <div class="row align-items-center">
 
-        <!-- <button onclick="window.location.href='My_Resume.pdf'" class="btn btn-success">Download Resume</button> -->
-        <!-- <a href="assets/My_Resume.pdf" download>Download Resume</a> -->
+          <!-- Left Column: Profile Image -->
+          <div class="col-md-3 text-center">
+            <img src="assets/profile.jpg" class="img-fluid rounded-circle"
+              style="width: 150px; height: 150px; object-fit: cover;" alt="Profile Photo">
+          </div>
 
-        <button onclick="window.open('My_Resume.pdf', '_blank')" class="btn btn-primary">
-          View Resume
-        </button>
+          <!-- Right Column: Name + Title + Button -->
+          <div class="col-md-9 text-center text-md-start">
+
+            <h1 class="fw-bold">SUBASH</h1>
+            <h2 class="h5">ANGULAR DEVELOPER</h2>
+
+            <div class="d-flex justify-content-md-end justify-content-center mt-3">
+              <button onclick="window.open('My_Resume.pdf', '_blank')" class="btn btn-primary">
+                View Resume
+              </button>
+            </div>
+
+          </div>
+
+        </div>
       </div>
-
     </header>
+
     <div class="resumeRow row">
       <div class="col-12 col-md-5 left-section">
         <section id="contacts">
@@ -21,7 +35,7 @@
           <p><i class="bi bi-telephone-fill"></i> +91 8838644144</p>
           <p><i class="bi bi-geo-alt-fill"></i> Salem, Tamil Nadu</p>
         </section>
-
+        <br>
         <section id="profile">
           <h2>PROFILE</h2>
           <hr class="thick-line">
@@ -37,7 +51,7 @@
           high-quality code. Adept at collaborating with cross-functional teams and contributing to performance
           improvements, feature enhancements, and overall application quality.
         </section>
-
+        <br>
         <section id="Education">
           <h2>EDUCATION</h2>
           <hr class="thick-line">
@@ -51,7 +65,7 @@
             <p>2009-2011</p>
           </div>
         </section>
-
+        <br>
         <section id="languages">
           <h2>LANGUAGES</h2>
           <hr class="thick-line">
@@ -69,7 +83,7 @@
           <h2>EXPERIENCE</h2>
           <hr class="thick-line">
           <article>
-            <h4>SOFTWARE ENGINEER - CHANGEPOND TECHNOLOGIES</h4>
+            <h5>SOFTWARE ENGINEER - CHANGEPOND TECHNOLOGIES</h5>
             <p>Dec 2022 — June 2025</p>
             <ul>
               <li>
@@ -91,7 +105,7 @@
             </ul>
           </article>
           <article>
-            <h4>PHP DEVELOPER - YAABITECH SOFTWARE SOLUTIONS</h4>
+            <h5>PHP DEVELOPER - YAABITECH SOFTWARE SOLUTIONS</h5>
             <p>Aug 2020 — July 2022</p>
             <ul>
               <li>
@@ -105,9 +119,9 @@
               </li>
             </ul>
           </article>
-
+          <br>
           <article id="skills">
-            <h2>Skills</h2>
+            <h2>SKILLS</h2>
             <hr class="thick-line">
             <div class="row">
 
