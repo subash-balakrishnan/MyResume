@@ -29,6 +29,19 @@
     transition: width 1s ease-in-out;
 }
 
+.progress-bar.level-low {
+  background-color: #ffc107; /* red */
+}
+
+.progress-bar.level-medium {
+  background-color: #88dcf3; /* yellow */
+}
+
+.progress-bar.level-high {
+  background-color: #28a745; /* green */
+}
+
+
 .resumeHeader {
     background-color: #a4aec6;
     color: white;
@@ -37,9 +50,9 @@
 .resumeContainer {
   max-width: 800px; /* A4 size */
   margin: 0 auto;   /* center */
-  background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* optional, looks like a real paper */
-  padding: 20px;
+  /* background: white; */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  /* padding: 20px; */
 }
 
 
@@ -50,7 +63,7 @@
 }
 
 .right-section {
-    background-color: #E0E0E0;
+    background-color: #E8E8E8;
     padding: 30px;
 }
 
