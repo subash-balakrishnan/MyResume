@@ -30,15 +30,15 @@
 }
 
 .progress-bar.level-low {
-  background-color: #ffc107; /* red */
+  background-color: #ffc107;
 }
 
 .progress-bar.level-medium {
-  background-color: #88dcf3; /* yellow */
+  background-color: #88dcf3;
 }
 
 .progress-bar.level-high {
-  background-color: #28a745; /* green */
+  background-color: #28a745;
 }
 
 
@@ -48,11 +48,11 @@
 }
 
 .resumeContainer {
-  max-width: 800px; /* A4 size */
-  margin: 0 auto;   /* center */
-  /* background: white; */
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 
